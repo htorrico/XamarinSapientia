@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Demo02.Page2">
+    <ContentPage.Content>
+        <StackLayout>
+                   
+                <Label FontAttributes="Bold" Text="Iniciar Sesión" HorizontalOptions="CenterAndExpand"></Label>
+                          
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Usuario"></Label>
+                <Entry x:Name="usuario" HorizontalOptions="FillAndExpand" ></Entry>
+                
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                
+                <Label Text="Password"></Label>
+                <Entry x:Name="password"  HorizontalOptions="FillAndExpand"></Entry>
+            </StackLayout>
+            <StackLayout>
+                <Button Text="Iniciar sesión" HorizontalOptions="CenterAndExpand"></Button>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
